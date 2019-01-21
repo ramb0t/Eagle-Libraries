@@ -1,4 +1,2 @@
-[submodule "Adafruit-Eagle-Library"]
-	url = https://github.com/adafruit/Adafruit-Eagle-Library.git
 [submodule "Element14_Eagle_Library"]
 	url = https://github.com/steakunderscore/eagle-cad-libraries.git
