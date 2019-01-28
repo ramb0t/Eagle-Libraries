@@ -6,3 +6,6 @@
 [submodule "SparkFun-Eagle-Libraries"]
 	path = SparkFun-Eagle-Libraries
 	url = https://github.com/sparkfun/SparkFun-Eagle-Libraries.git
+[submodule "OPL_Eagle_Library"]
+	path = OPL_Eagle_Library
+	url = https://github.com/Seeed-Studio/OPL_Eagle_Library.git
