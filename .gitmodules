@@ -9,3 +9,6 @@
 [submodule "OPL_Eagle_Library"]
 	path = OPL_Eagle_Library
 	url = https://github.com/Seeed-Studio/OPL_Eagle_Library.git
+[submodule "hardware-libraries"]
+	path = hardware-libraries
+	url = https://github.com/particle-iot/hardware-libraries.git
