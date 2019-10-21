@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -341,6 +342,121 @@
 <text x="-8.1" y="2.6" size="1.016" layer="27">&gt;Value</text>
 <hole x="0" y="0" drill="2.5"/>
 </package>
+<package name="2132230-2">
+<description>&lt;b&gt; TE Connectivity (TE) Economy Power 2.5 Connector &lt;/b&gt; Economy Power 2.5, PCB Mount Header, Vertical, Wire-to-Board, 2 Position, 2.5mm [.098in] Centerline, 1 Row, Tin, Natural, Shrouded, Power &amp; Signal
+
+
+    TE Internal #: 2132230-2
+    TE Internal Description: EP2.5 Shrouded HDR ASSY 2P VER</description>
+<wire x1="0" y1="0" x2="0" y2="7" width="0.127" layer="21"/>
+<wire x1="0" y1="7" x2="2.15" y2="7" width="0.127" layer="21"/>
+<wire x1="2.15" y1="7" x2="5.35" y2="7" width="0.127" layer="21"/>
+<wire x1="5.35" y1="7" x2="7.5" y2="7" width="0.127" layer="21"/>
+<wire x1="7.5" y1="7" x2="7.5" y2="0" width="0.127" layer="21"/>
+<wire x1="7.5" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="P$1" x="2.5" y="3.5" drill="0.9" shape="square"/>
+<pad name="P$2" x="5" y="3.5" drill="0.9"/>
+<hole x="0.9" y="1.9" drill="1.2"/>
+<text x="0" y="7.5" size="1.27" layer="21">&gt;NAME</text>
+<text x="0" y="-1.5" size="1.27" layer="21">&gt;VALUE</text>
+<wire x1="2.15" y1="7" x2="2.15" y2="6" width="0.127" layer="21"/>
+<wire x1="2.15" y1="6" x2="5.35" y2="6" width="0.127" layer="21"/>
+<wire x1="5.35" y1="6" x2="5.35" y2="7" width="0.127" layer="21"/>
+</package>
+<package name="2132230-3">
+<description>&lt;b&gt; TE Connectivity (TE) Economy Power 2.5 Connector &lt;/b&gt; Economy Power 2.5, PCB Mount Header, Vertical, Wire-to-Board, 3 Position, 2.5mm [.098in] Centerline, 1 Row, Tin, Natural, Shrouded, Power &amp; Signal
+
+
+    TE Internal #: 2132230-3
+    TE Internal Description: EP2.5 Shrouded HDR ASSY 3P VER</description>
+<wire x1="0" y1="0" x2="0" y2="7" width="0.127" layer="21"/>
+<wire x1="0" y1="7" x2="2.6" y2="7" width="0.127" layer="21"/>
+<wire x1="2.6" y1="7" x2="7.4" y2="7" width="0.127" layer="21"/>
+<wire x1="7.4" y1="7" x2="10" y2="7" width="0.127" layer="21"/>
+<wire x1="10" y1="7" x2="10" y2="0" width="0.127" layer="21"/>
+<wire x1="10" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="P$1" x="2.5" y="3.5" drill="0.9" shape="square"/>
+<pad name="P$2" x="5" y="3.5" drill="0.9"/>
+<hole x="0.9" y="1.9" drill="1.2"/>
+<text x="0" y="7.5" size="1.27" layer="21">&gt;NAME</text>
+<text x="0" y="-1.5" size="1.27" layer="21">&gt;VALUE</text>
+<wire x1="2.6" y1="7" x2="2.6" y2="6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="6" x2="7.4" y2="6" width="0.127" layer="21"/>
+<wire x1="7.4" y1="6" x2="7.4" y2="7" width="0.127" layer="21"/>
+<pad name="P$3" x="7.5" y="3.5" drill="0.9"/>
+</package>
+<package name="2132230-4">
+<description>&lt;b&gt; TE Connectivity (TE) Economy Power 2.5 Connector &lt;/b&gt; Economy Power 2.5, PCB Mount Header, Vertical, Wire-to-Board, 4 Position, 2.5mm [.098in] Centerline, 1 Row, Tin, Natural, Shrouded, Power &amp; Signal
+
+
+    TE Internal #: 2132230-4
+    TE Internal Description: EP2.5 Shrouded HDR ASSY 4P VER</description>
+<wire x1="0" y1="0" x2="0" y2="7" width="0.127" layer="21"/>
+<wire x1="0" y1="7" x2="3.55" y2="7" width="0.127" layer="21"/>
+<wire x1="3.55" y1="7" x2="8.95" y2="7" width="0.127" layer="21"/>
+<wire x1="8.95" y1="7" x2="12.5" y2="7" width="0.127" layer="21"/>
+<wire x1="12.5" y1="7" x2="12.5" y2="0" width="0.127" layer="21"/>
+<wire x1="12.5" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="P$1" x="2.5" y="3.5" drill="0.9" shape="square"/>
+<pad name="P$2" x="5" y="3.5" drill="0.9"/>
+<hole x="0.9" y="1.9" drill="1.2"/>
+<text x="0" y="7.5" size="1.27" layer="21">&gt;NAME</text>
+<text x="0" y="-1.5" size="1.27" layer="21">&gt;VALUE</text>
+<wire x1="3.55" y1="7" x2="3.55" y2="6" width="0.127" layer="21"/>
+<wire x1="3.55" y1="6" x2="8.95" y2="6" width="0.127" layer="21"/>
+<wire x1="8.95" y1="6" x2="8.95" y2="7" width="0.127" layer="21"/>
+<pad name="P$3" x="7.5" y="3.5" drill="0.9"/>
+<pad name="P$4" x="10" y="3.5" drill="0.9"/>
+</package>
+<package name="2132230-5">
+<description>&lt;b&gt; TE Connectivity (TE) Economy Power 2.5 Connector &lt;/b&gt; Economy Power 2.5, PCB Mount Header, Vertical, Wire-to-Board, 5 Position, 2.5mm [.098in] Centerline, 1 Row, Tin, Natural, Shrouded, Power &amp; Signal
+
+
+    TE Internal #: 2132230-5
+    TE Internal Description: EP2.5 Shrouded HDR ASSY 5P VER</description>
+<wire x1="0" y1="0" x2="0" y2="7" width="0.127" layer="21"/>
+<wire x1="0" y1="7" x2="4.8" y2="7" width="0.127" layer="21"/>
+<wire x1="4.8" y1="7" x2="10.2" y2="7" width="0.127" layer="21"/>
+<wire x1="10.2" y1="7" x2="15" y2="7" width="0.127" layer="21"/>
+<wire x1="15" y1="7" x2="15" y2="0" width="0.127" layer="21"/>
+<wire x1="15" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="P$1" x="2.5" y="3.5" drill="0.9" shape="square"/>
+<pad name="P$2" x="5" y="3.5" drill="0.9"/>
+<hole x="0.9" y="1.9" drill="1.2"/>
+<text x="0" y="7.5" size="1.27" layer="21">&gt;NAME</text>
+<text x="0" y="-1.5" size="1.27" layer="21">&gt;VALUE</text>
+<wire x1="4.8" y1="7" x2="4.8" y2="6" width="0.127" layer="21"/>
+<wire x1="4.8" y1="6" x2="10.2" y2="6" width="0.127" layer="21"/>
+<wire x1="10.2" y1="6" x2="10.2" y2="7" width="0.127" layer="21"/>
+<pad name="P$3" x="7.5" y="3.5" drill="0.9"/>
+<pad name="P$4" x="10" y="3.5" drill="0.9"/>
+<pad name="P$5" x="12.5" y="3.5" drill="0.9"/>
+</package>
+<package name="2132230-6">
+<description>&lt;b&gt; TE Connectivity (TE) Economy Power 2.5 Connector &lt;/b&gt; Economy Power 2.5, PCB Mount Header, Vertical, Wire-to-Board, 6 Position, 2.5mm [.098in] Centerline, 1 Row, Tin, Natural, Shrouded, Power &amp; Signal
+
+
+    TE Internal #: 2132230-6
+    TE Internal Description: EP2.5 Shrouded HDR ASSY 6P VER</description>
+<wire x1="0" y1="0" x2="0" y2="7" width="0.127" layer="21"/>
+<wire x1="0" y1="7" x2="6.05" y2="7" width="0.127" layer="21"/>
+<wire x1="6.05" y1="7" x2="11.45" y2="7" width="0.127" layer="21"/>
+<wire x1="11.45" y1="7" x2="17.5" y2="7" width="0.127" layer="21"/>
+<wire x1="17.5" y1="7" x2="17.5" y2="0" width="0.127" layer="21"/>
+<wire x1="17.5" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="P$1" x="2.5" y="3.5" drill="0.9" shape="square"/>
+<pad name="P$2" x="5" y="3.5" drill="0.9"/>
+<hole x="0.9" y="1.9" drill="1.2"/>
+<text x="0" y="7.5" size="1.27" layer="21">&gt;NAME</text>
+<text x="0" y="-1.5" size="1.27" layer="21">&gt;VALUE</text>
+<wire x1="6.05" y1="7" x2="6.05" y2="6" width="0.127" layer="21"/>
+<wire x1="6.05" y1="6" x2="11.45" y2="6" width="0.127" layer="21"/>
+<wire x1="11.45" y1="6" x2="11.45" y2="7" width="0.127" layer="21"/>
+<pad name="P$3" x="7.5" y="3.5" drill="0.9"/>
+<pad name="P$4" x="10" y="3.5" drill="0.9"/>
+<pad name="P$5" x="12.5" y="3.5" drill="0.9"/>
+<pad name="P$6" x="15" y="3.5" drill="0.9"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CON-6WAY">
@@ -462,6 +578,19 @@ Applies To Printed Circuit Board&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
+<device name="VERTICLE" package="2132230-6">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$6" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="HEADER-5WAY">
@@ -493,9 +622,27 @@ Applies To Printed Circuit Board&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
+<device name="VERTICLE" package="2132230-5">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="HEADER-4WAY">
+<description>&lt;b&gt;TE Connectivity (TE) Economy Power 2.5 Connector 2P&lt;/b&gt;
+&lt;p&gt;
+The compact EP 2.5 family is based on a .098" [2.5mm] pitch and is rated for 250VAC at up to an industry-leading 4.2A. With a 26 to 20 AWG [.121-.601 mm²] wire size, and up to 40-positions, EP 2.5 is suited for signal and low power PC board connections when space is at a premium. EP 2.5 connectors offer two levels of mechanical and electrical reliability: A true locking latch prevents the plug housing and post header from vibrating apart, while an optional Terminal Position Assurance (TPA) device helps assure terminal seating.
+&lt;p&gt;
+
+&lt;url&gt;https://www.te.com/usa-en/products/connectors/power-connectors/rectangular-power/intersection/economy-power-2-5-connectors.html&lt;/url&gt;</description>
 <gates>
 <gate name="G$1" symbol="CON-4WAY" x="0" y="0"/>
 </gates>
@@ -522,9 +669,26 @@ Applies To Printed Circuit Board&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
+<device name="VERTICLE" package="2132230-4">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="HEADER-3WAY">
+<description>&lt;b&gt;TE Connectivity (TE) Economy Power 2.5 Connector 3P&lt;/b&gt;
+&lt;p&gt;
+The compact EP 2.5 family is based on a .098" [2.5mm] pitch and is rated for 250VAC at up to an industry-leading 4.2A. With a 26 to 20 AWG [.121-.601 mm²] wire size, and up to 40-positions, EP 2.5 is suited for signal and low power PC board connections when space is at a premium. EP 2.5 connectors offer two levels of mechanical and electrical reliability: A true locking latch prevents the plug housing and post header from vibrating apart, while an optional Terminal Position Assurance (TPA) device helps assure terminal seating.
+&lt;p&gt;
+
+&lt;url&gt;https://www.te.com/usa-en/products/connectors/power-connectors/rectangular-power/intersection/economy-power-2-5-connectors.html&lt;/url&gt;</description>
 <gates>
 <gate name="G$1" symbol="CON-3WAY" x="0" y="0"/>
 </gates>
@@ -549,9 +713,25 @@ Applies To Printed Circuit Board&lt;P&gt;
 <technology name=""/>
 </technologies>
 </device>
+<device name="VERTICLE" package="2132230-3">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="HEADER-2WAY">
+<description>&lt;b&gt;TE Connectivity (TE) Economy Power 2.5 Connector 2P&lt;/b&gt;
+&lt;p&gt;
+The compact EP 2.5 family is based on a .098" [2.5mm] pitch and is rated for 250VAC at up to an industry-leading 4.2A. With a 26 to 20 AWG [.121-.601 mm²] wire size, and up to 40-positions, EP 2.5 is suited for signal and low power PC board connections when space is at a premium. EP 2.5 connectors offer two levels of mechanical and electrical reliability: A true locking latch prevents the plug housing and post header from vibrating apart, while an optional Terminal Position Assurance (TPA) device helps assure terminal seating.
+&lt;p&gt;
+
+&lt;url&gt;https://www.te.com/usa-en/products/connectors/power-connectors/rectangular-power/intersection/economy-power-2-5-connectors.html&lt;/url&gt;</description>
 <gates>
 <gate name="G$1" symbol="CON-2WAY" x="0" y="0"/>
 </gates>
@@ -566,6 +746,15 @@ Applies To Printed Circuit Board&lt;P&gt;
 </technologies>
 </device>
 <device name="NOSLOT" package="1744426-2-NOSLOT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="2132230-2">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
